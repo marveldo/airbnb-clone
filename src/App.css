@@ -1,38 +1,77 @@
-.App {
-  text-align: center;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&family=Poppins:wght@400;500&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.Container{
+    width:100%;
+}
+.Navbar{
+    padding: 25px;
+   
+    box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+
+}
+.Navbar img{
+    width:82.02px;
+}
+.section1{
+    padding-top:35px;
+    padding-bottom:10px;
+    padding-left: 70px ;
+    padding-right: 70px ;
+    display: flex;
+}
+.section1 img{
+    max-width: 800px;
+    /* max-width: 750px; */
+    margin-inline: auto;
+    /* height:300px; */
+    width: 100%;
+}
+.experiences{
+    padding-left: 25px;
+    padding-left: 25px;
+    
+    margin-bottom: 40px;
+
+    
+}
+.experiences h1{
+   font-weight: 600;
+   font-size: 36px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Section3{
+    display:flex;
+    padding-left: 25px;
+    overflow-x: auto;
+    
+
+}
+.card{
+    margin-right: 30px;
+    position: relative;
+}
+.card div{
+    display:flex;
+    align-items: center;
+    width:50%;
+    
+    
+}
+.Main-img{
+   width:176px;
+   height:235px;
+}
+.class-status{
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
